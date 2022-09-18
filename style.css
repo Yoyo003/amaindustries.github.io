@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&family=Source+Sans+Pro:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+
+/*css for the header containing the navigation menu*/
+.list1, a, .cta{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 100;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.mainlogo{
+    cursor: pointer;
+}
+
+.nav_links{
+    list-style-type: none;
+}
+.nav_links .list1{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links .list1 a{
+     transition: all 0.3s ease 0s;
+}
+
+.nav_links .list1 a:hover{
+    color: #4cec6c;
+}
+.login{
+    padding: 9px 25px;
+    background-color: rgb(26, 133, 49);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.login:hover{
+    background-color: rgba(93, 237, 126, 0.8);
+}
+/*First container: with about agriculture*/
+#mainpic{
+    height: 800px;
+    width: 100%;
+    background-image: url(image/bluetractor.jnp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden; 
+}
+
+.overlay{
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5);
+}
+.button2{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 9px 25px;
+    background-color: rgb(25, 112, 44);
+    color:black;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border-radius: 30px;
+    letter-spacing: 0.5px;
+    width: 30%;
+}
+.button2:hover{
+    color: rgb(25, 112, 44);
+    background-color: white;
+}
+.maintext{
+    margin-top: 25%;
+    margin-left: 10%;
+    display: inline-block;
+    align-items:center;
+    justify-content: center;
+}
+.firsttext{
+    font-size: 3rem;
+    color: white;
+
+}
+.secondtext{
+    font-size: 1rem;
+    color: white;
+}
+
+/*Second container: problems of agriculture*/
+.container2{
+    background-color:white;
+    position: relative;
+    padding: 50px ;
+    display: block;
+    align-items:center;
+    justify-content: right;
+}
+.h3text2{
+    font-size: 1.5rem;
+    color: black;
+}
+.list2{
+    display: list-item; 
+    margin-left: 5%;
+    font-size: 1.5rem;
+}
+.ptext2{
+  font-size: 1.5rem;
+}
+
+/*Third container: talking about livestock breeding*/
+#container3{
+    height: 1000px;
+    width: 100%;
+    background-image: url(image/breeding.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden; 
+}
+
+.overlay3{
+    height: 1000px;
+    width: 100%;
+    overflow: hidden;
+    background: rgba(0,0,0,0.6);
+}
+.text3{
+    padding: 30px 10%;
+    color: white;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+}
+.text3-1{
+    display: block;
+    align-content: center;
+    justify-content: right;
+}
+.h3text3{
+  font-size: 1.5rem;
+}
+.ptext3{
+  font-size: 1rem;
+}
+
+.text3-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#leftbox {
+    float:left; 
+    width:30%;
+    font-size: 1rem;
+    margin: 5%;
+}
+#middlebox{
+  float:left; 
+  width:30%;
+  font-size: 1rem;
+  margin: 5%;
+}
+#rightbox{
+    float:right;
+    width:30%;
+    font-size: 1rem;
+    margin: 5%;
+
+}
+
+
+/* login page*/
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .logocontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  span.ama{
+        color: green;
+  }
+  .container {
+    padding: 16px;
+  }
+  .logo{
+      font-size: 25px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .signin {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .signin-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .nav_links a {
+      float: none;
+      width: 100%;
+    }
+  }

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content = "">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>AMA Industries</title>
+    </head>
+
+    <body>
+
+        <header>
+            <img class="mainlogo" src="image/logo.png" alt="logo">
+            <nav>
+                <ul class="nav_links">
+                    <li class="list1"><a href="/home.html"class="btn ">HOME</a></li>
+                    <li class="list1"><a href="#agriculturalproducts" class="btn">AGRICULTURAL PRODUCTS</a></li>
+                    <li class="list1"><a href="#livestockproduts" class="btn">LIVESTOCK PRODUCTS</a></li>
+                    <li class="list1"><a href="/Aboutus.html" class="btn">ABOUT US</a></li>
+                </ul>
+            </nav>
+            <button class="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" >Sign in</button>
+        </header>
+        
+        <div id="mainpic">
+            <div class="overlay">
+                <div class="maintext">
+                    <p class="firsttext">"Many Opportunities Are Offer To Us Through Agrictulture In Africa"</h2>
+                    <p class="secondtext">The agriculture and livestock products can help many Afican countries to develop. There are enougth land for huge production and the soil capable of growing varieties of product</h6>
+                    <br>
+                    <a href="mailto:amaindustries@gmail.com"><button  class="button2" >EMAIL US</button></a>
+                </div>   
+            </div>
+        </div>
+
+        <div class="container2">
+            <p>
+                <h3 id="agriculturalproducts" class="h3text2">Agricultural Products</h3>
+                <br>
+                <p class="ptext2">
+                    Agriculture seems to be the most important sector in the economy of most african countries. 
+                    <br>
+                    Despite that, it appear to not be considered that much and thus not well developped.                  
+                    <br>
+                    What could possibly be the causes?
+                </p>
+                <br>
+                <Span class="list2">Lack of information</Span>
+                <span class="list2">Lack of access to fertilizers at low prices</span>
+                <span class="list2">Lack of good road networks and good markets</span>
+                <span class="list2">Lack of financial support</span> 
+                <br>                   
+                <p class="ptext2">
+                    Afican countries should therefore consider researching and investing more in agriculture 
+                    <br>
+                    expecially the those without desert can easily make a lot of profit out of this economic 
+                    <br>
+                    activity.
+                </p>
+            </p>
+        </div> 
+        <div id="container3" >
+            <div class="overlay3">
+                <div class="text3">
+                    <div class="text3-1">
+                        <h3 class="h3text3" id="livestockproduts">Livestock breeding</h3>
+                        <p class="ptext3">
+                            <br>
+                            Livestock breeding is another activity that could also 
+                            <br>
+                            boost the economy of any countries. Many unused land 
+                            <br>
+                            on which grow various plants, weeds and cultivable, will
+                            <br>
+                            be enough to provoide to the different animals. Individual 
+                            <br>
+                            with even the goverment could greatly beneficiate from 
+                            <br>
+                            too.
+                        </p>
+                    </div>
+                    <div class="text3-2">
+                        <div id = "leftbox">
+                            <h2>Chicken breeding</h2>
+                            It is a good platform to learn programming.
+                            It is an educational website. Prepare for
+                            the Recruitment drive  of product based 
+                            companies like Microsoft, Amazon, Adobe 
+                            etc with a free online placement preparation 
+                            course.
+                        </div> 
+                          
+                        <div id = "middlebox">
+                            <h2>Cow breeding</h2>
+                            It is a good platform to learn programming.
+                            It is an educational website. Prepare for
+                            the Recruitment drive  of product based 
+                            companies like Microsoft, Amazon, Adobe 
+                            etc with a free online placement preparation 
+                            course.
+                        </div>
+                          
+                        <div id = "rightbox">
+                            <h2>Rabbit breeding</h2>
+                            It is a good platform to learn programming.
+                            It is an educational website. Prepare for
+                            the Recruitment drive  of product based 
+                            companies like Microsoft, Amazon, Adobe 
+                            etc with a free online placement preparation 
+                            course.
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+
+        <div id="id01" class="signin">
+    
+            <form class="signin-content animate" action="/action_page.php" method="post">
+                
+                <div class="container">
+    
+                    <div class="logocontainer">
+                        <p class="logo"><span class="ama">AMA</span> Industries</p>
+                    </div>  
+    
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+    
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                        
+                    <button type="submit">Login</button>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                    <br>
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+    
+            </form>
+        </div>
+    
+        <script>
+            // Get the modal
+            var signin = document.getElementById('id01');
+    
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == signin) {
+                    signin.style.display = "none";
+                }
+            }
+        </script>
+         
+    </body>
+</html>
+    
